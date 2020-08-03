@@ -13,7 +13,7 @@ public class Test01 {
     public void testGetColor1() {
         Main01 c1 = new Main01();
         String t1 = c1.getColor(1);
-        assertThat(t1,is("黒"));
+        assertThat(t1,is("赤"));
     }
     @Test
     public void testGetColor2() {
